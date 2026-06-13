@@ -1,33 +1,110 @@
-# Iris-flower-species-prediction
-A Machine Learning web application that predicts Iris flower species based on sepal and petal measurements using Streamlit.
+# 🌸 Iris Flower Prediction using Machine Learning
 
-# 🌸 Iris Flower Species Prediction
+## 📌 Project Overview
 
-## Overview
-This project is a Machine Learning web application that predicts the species of an Iris flower based on its sepal and petal measurements.
+This project predicts the species of an Iris flower using Machine Learning algorithms. Users can enter flower measurements through a Streamlit web application, and the trained model instantly predicts the flower species.
 
-The application is built using:
+---
+
+## 🎯 Objective
+
+The objective of this project is to classify Iris flowers into one of three species:
+
+- Iris Setosa
+- Iris Versicolor
+- Iris Virginica
+
+---
+
+## 🛠️ Technologies Used
+
 - Python
-- Scikit-Learn
 - Streamlit
+- Scikit-Learn
+- Pandas
 - NumPy
+- Pickle
 
-## Features
-- User-friendly web interface
-- Real-time species prediction
-- Fast and accurate classification
-- Interactive Streamlit dashboard
+---
 
-## Dataset
-The model is trained on the famous Iris Dataset, which contains measurements of:
+## 📊 Dataset Information
+
+The project uses the famous Iris Dataset containing the following features:
+
 - Sepal Length
 - Sepal Width
 - Petal Length
 - Petal Width
 
 Target Classes:
-- Iris Setosa
-- Iris Versicolor
-- Iris Virginica
 
-## Project Structure
+- Setosa
+- Versicolor
+- Virginica
+
+---
+
+## 🤖 Machine Learning Model
+
+**Model Used:** Logistic Regression
+
+The model was trained and evaluated using the Iris Dataset and achieved excellent performance on the test dataset.
+
+### Model Performance
+
+| Metric | Score |
+|----------|----------|
+| Accuracy | 100% |
+| Precision | 100% |
+| Recall | 100% |
+| F1-Score | 100% |
+
+---
+
+## ✨ Features
+
+- Real-time Iris flower prediction
+- Simple and interactive user interface
+- Accurate Machine Learning model
+- Fast prediction results
+- Easy deployment using Streamlit
+
+---
+
+## 📂 Project Structure
+
+iris-flower-prediction
+│
+├── app.py
+├── iris_model.pkl
+├── requirements.txt
+└── README.md
+
+---
+
+## 📸 Application Screenshot
+
+### Home Page
+
+![Home Page](screenshots/home.png)
+
+### Prediction Result
+
+![Prediction Result](screenshots/prediction.png)
+
+---
+
+## 🚀 Future Enhancements
+
+- Improved user interface
+- Confidence score display
+- Cloud deployment
+- Additional flower datasets support
+
+---
+
+## 👩‍💻 Author
+
+**Shreya Prajapati**
+
+B.Tech CSE (AI & ML)

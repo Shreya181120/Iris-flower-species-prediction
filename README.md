@@ -107,4 +107,4 @@ iris-flower-prediction
 
 **Shreya Prajapati**
 
-B.Tech CSE (AI & ML)
+B.Sc.(IT)

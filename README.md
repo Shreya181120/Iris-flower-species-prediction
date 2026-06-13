@@ -86,11 +86,11 @@ iris-flower-prediction
 
 ### Home Page
 
-![Home Page](screenshots/home.png)
+![Home Page](Iris_home.png)
 
 ### Prediction Result
 
-![Prediction Result](screenshots/prediction.png)
+![Prediction Result](Iris_prediction.png)
 
 ---
 
